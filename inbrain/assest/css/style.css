@@ -1,0 +1,182 @@
+.navbar_div{
+    width: 100%;
+    height: 40px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px;
+    border-bottom: 0.5px solid rgb(209,213,219);
+}
+body{
+    background-color: #f9f9f9;
+}
+.but_naw{
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+.main_div{
+    display: grid;
+    grid-template-columns: 4% 30% 30% 36%;
+    width: 100%;
+    height: 529px;
+    border: 1px solid rgb(209,213,219);
+}
+.div_1{
+    border: 0.5px solid rgb(209,213,219);
+    background-color: #f9f9f9;
+}
+.div_1 li {
+    display: block;
+    margin-left:-20px;
+    padding-bottom: 30px;   
+    
+}
+.div_1 li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(139, 136, 136);
+}
+.col1_scroll{
+    overflow-y: scroll;
+    height: 529px;
+}
+.user_div  {
+    height: 110px;
+    width: 110px;
+    line-height: 110px;
+    background-color: #c5c2c2;
+    text-align: center;
+    border-radius: 50%;
+    border: none;    
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.user_div i {
+    color: white;
+}
+.but_photo{
+    padding-right:25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 160px;
+    margin-top: 20px;   
+    border:0.3px solid rgb(209,213,219);
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+.text_div{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.text_div2{
+    margin-left: 120px;
+}
+
+.div_left{
+    width: 350px;
+    background-color: #f9f9f9;
+    height: 50px;
+    margin-left: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.div_left p{
+    margin-top: -10px;
+}
+.kurs_div{
+    width: 350px;
+    height: 100px;
+    text-align: left;
+    background-color: #f9f9f9;  
+    margin-top:30px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);    
+    display: flex;
+    justify-content: space-between; 
+}
+.kurs_left{
+    width: 90px;
+    height: 100px;
+    background-color: #f9f9f9;
+   
+}
+.icon_div{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    background-color:blue;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.icon_div i {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+.kurs_right{
+    text-align: left;
+    width: 230px;
+}
+.kurs_center{
+    width: 20px;
+    cursor: pointer;
+}
+.div2_skroll{
+    overflow-y: scroll;
+    height: 570px;
+    background-color: #f9f9f9;
+}
+.rasm_tomat{
+    width: 380px;
+}
+.post{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-top: 8px;   
+    border-bottom: 1px solid rgb(209,213,219);
+}
+.logo1{
+    width: 100%;
+    height: 50px; 
+    margin: 10px 0 0 0px ; 
+}
+.div3_skroll{
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+    border: 0.5px solid rgb(209,213,219);
+    height: 529px;
+    overflow-x: none;    
+}
+video{
+    width: 100%;
+}
+.likes{
+    display: inline-block;
+    margin-left: 10px;
+}
+::-webkit-scrollbar {
+    width: 2px;    
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  @media only screen and (max-width: 640px) {
+    .navbar_div{
+        height: 50px;
+    }
+.main_div{
+    grid-template-columns: 5% 50% 30% 36%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+}
+    
+  
+    
